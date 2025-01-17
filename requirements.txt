@@ -1,0 +1,12 @@
+apache-airflow-client==2.10.0
+requests~=2.32.3
+types-requests
+apache-airflow~=2.10.4
+pendulum~=3.0.0
+minio~=7.2.13
+boto3~=1.35.88
+botocore~=1.35.88
+pandas~=2.2.3
+dash-bootstrap-components~=1.6.0
+plotly~=5.24.1
+dash~=2.18.2
