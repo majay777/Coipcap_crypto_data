@@ -16,7 +16,7 @@ sleep 30 # wait for Airflow to start
 
 ```
 
-Go to [http:localhost:8080](http:localhost:8080) to see the Airflow UI. Username and password are 'airflow' only.
+Go to [http:localhost:8080] to see the Airflow UI. Username and password are 'airflow' only.
 
 Go to [http:localhost:9001] to minio bucket, minio user and password both are 'minioadmin'.
 

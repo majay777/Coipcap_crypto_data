@@ -25,13 +25,9 @@ start:
 	docker compose start
 
 
-.PHONY: minio-start
-## Start the minio in docker
 minio-start:
-    docker exec minioserver
+	docker exec minioserver
 
-
-.PHONY: dash-app
-## Start the dash app
 dash-app:
-    python  /opt/airflow/dash_app/app.py
+	python  /opt/airflow/dash_app/app.py
+
