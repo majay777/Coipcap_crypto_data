@@ -1,4 +1,4 @@
-apache-airflow-client==2.11.1
+apache-airflow-client==3.1.7
 requests~=2.32.3
 types-requests
 apache-airflow~=2.10.4
