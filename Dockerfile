@@ -1,4 +1,4 @@
-FROM apache/airflow:2.11.1
+FROM apache/airflow:3.1.7
 COPY requirements.txt /
 RUN pip install --no-cache-dir "apache-airflow==${AIRFLOW_VERSION}" -r /requirements.txt
 EXPOSE 8050
